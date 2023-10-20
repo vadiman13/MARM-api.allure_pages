@@ -1,0 +1,61 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "array",
+  "items": [
+    {
+      "type": "object",
+      "properties": {
+        "code": {
+          "type": "integer"
+        },
+        "outCode": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "foodTotalPrice": {
+          "type": "number"
+        },
+        "totalPrice": {
+          "type": "number"
+        },
+        "demography": {
+          "type": "number"
+        },
+        "salary": {
+          "type": "number"
+        },
+        "foodCostPercent": {
+          "type": "number"
+        },
+        "foodPeopleCost": {
+          "type": "number"
+        },
+        "foodSalaryPercent": {
+          "type": "number"
+        },
+        "factor": {
+          "type": "number"
+        },
+        "mapType": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "code",
+        "outCode",
+        "name",
+        "foodTotalPrice",
+        "totalPrice",
+        "demography",
+        "salary",
+        "foodCostPercent",
+        "foodPeopleCost",
+        "foodSalaryPercent",
+        "factor",
+        "mapType"
+      ]
+    }
+  ]
+}

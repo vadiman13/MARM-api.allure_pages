@@ -1,0 +1,25 @@
+[
+    {
+        "name": "Запрос пользователей Marketon",
+        "url": "v1/indicators/foodindicator",
+        "params": {
+            "month": "2022-01-01"
+        },
+        "response_format": [
+            "code",
+            "outCode",
+            "name",
+            "foodTotalPrice",
+            "totalPrice",
+            "demography",
+            "salary",
+            "foodCostPercent",
+            "foodPeopleCost",
+            "foodSalaryPercent",
+            "factor",
+            "mapType"
+        ],
+        "schema_path": "request_schemas/foodindicator_schema.json",
+        "service": "marm3/api/"
+    }
+]
